@@ -13,6 +13,9 @@ const Signup = () => {
                 <IoLogoFacebook className="me-2" />
                 <span className="flex-grow-1 text-center">Continue with Facebook</span>
             </Button>
+            <div>
+                
+            </div>
         </div>
     );
 };
