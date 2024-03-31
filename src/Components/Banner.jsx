@@ -1,7 +1,15 @@
 import colors from "../utils/Colors";
 import bannerImg from '../assets/Group 27.svg'
+import { useState } from "react";
+
 
 const Banner = () => {
+    const [activeTab, setActiveTab] = useState('login');
+
+    const handleTabChange = (tab) => {
+        setActiveTab(tab);
+    };
+
     return (
         <div style={{ backgroundColor: colors.bannerFir, height: "92vh", display: "flex", alignItems: "center" }}>
             <div className="mx-5 container" >
@@ -13,16 +21,29 @@ const Banner = () => {
 
                         </p>
 
-                        <p className='fs-5 mt-5' style={{marginBottom: "5.2rem"}}>
+                        <p className='fs-5 mt-5' style={{ marginBottom: "5.2rem" }}>
                             If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,  services or events.  Hop on your hobbyhorse and enjoy the ride.
                         </p>
-                        <div className="flex "> 
+                        <div className="flex ">
                             <img src={bannerImg} alt="Happy figures" className="w-100" />
                         </div>
                     </div>
                     <div className="col">
-                        <p>Login</p>
-                        <p>Login</p>
+                        <div className="d-flex gap-5">
+                            <p
+                                className={`tab ${activeTab === 'signup' ? `border-bottom border-3 border-primary fw-bold fs-3 ` : 'fw-bold fs-3 text-black-50'}`}
+                                onClick={() => handleTabChange('signup')}
+                            >
+                                Sign in
+                            </p>
+                            <p
+                                className={`tab ${activeTab === 'login' ? 'border-bottom border-primary border-3 fw-bold  fs-3' : 'fw-bold  fs-3 text-black-50'}`}
+                                onClick={() => handleTabChange('login')}
+                            >
+                                Join
+                            </p>
+
+                        </div>
                     </div>
                 </div>
             </div>
