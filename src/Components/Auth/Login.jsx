@@ -16,7 +16,7 @@ const Login = () => {
 
     return (
         <div className="container-fluid">
-            <Button className="w-100 border-2 borderr p-3 text-black fw-bold d-flex justify-content-start align-items-center" variant="outline-light mb-3">
+            <Button className="w-100 border-2 borderr p-3 text-black fw-bold d-flex justify-content-start align-items-center" variant="outline-light my-3">
                 <FcGoogle size={24} className="me-2" />
                 <span className="flex-grow-1 text-center">Continue with Google</span>
             </Button>
@@ -48,7 +48,7 @@ const Login = () => {
 
 
                 <Button className="w-100 p-3 text-black fw-bold d-flex justify-content-start align-items-center bg-purple">
-                    <span className="flex-grow-1 fs-4 text-white text-center ">Agree and Continue</span>
+                    <span className="flex-grow-1 fs-5 text-white text-center ">Agree and Continue</span>
                 </Button>
             </Form>
         </div>

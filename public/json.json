@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "icon": "https://i.postimg.cc/wvQMZ8qd/Group-1.png",
+        "title": "People",
+        "desc": "Find a teacher, coach, or expert for your hobby interest in your locality. Find a partner, teammate, accompanist or collaborator.",
+        "btn": "Connect"
+    },
+    {
+        "id": 2,
+        "icon": "https://i.postimg.cc/zDp3kr2C/location-on-black-24dp-1.png",
+        "title": "Place",
+        "desc": "Find a class, school, playground, auditorium, studio, shop or an event venue.  Book a slot at venues that allow booking through hobbycue.",
+        "btn": "Meet up"
+    },
+    {
+        "id": 3,
+        "icon": "https://i.postimg.cc/SRQRpTRY/shopping-basket-black-24dp-2-1.png",
+        "title": "Product",
+        "desc": "Find equipment or supplies required for your hobby.  Buy, rent or borrow from shops, online stores or from community members.",
+        "btn": "Get it"
+    },
+    {
+        "id": 4,
+        "icon": "https://i.postimg.cc/kGj4MQR1/event-available-black-24dp-2.png",
+        "title": "Program",
+        "desc": "Find events, meetups and workshops related to your hobby.  Register or buy tickets online.",
+        "btn": "Attend"
+    }
+]

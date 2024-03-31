@@ -1,8 +1,8 @@
 
 const Cards = () => {
     return (
-        <div>
-            Cards
+        <div className="mx-5">
+            {/* four cards two grid layout */}
         </div>
     );
 };
