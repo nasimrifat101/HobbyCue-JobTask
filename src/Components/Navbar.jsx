@@ -35,25 +35,45 @@ const Navbarr = () => {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="ms-auto d-flex gap-5">
                             <Nav className="me-auto my-2 my-lg-0 gap-5" style={{ maxHeight: '100px' }} navbarScroll>
-                                <NavDropdown className='fs-5 fw-bold' title={<><FaCompass style={{ color: colors.primary }}  /> Explore</>} id="navbarScrollingDropdown">
-                                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                <NavDropdown className='fs-5 fw-bold' title={<><FaCompass style={{ color: colors.primary }} /> Explore</>} id="navbarScrollingDropdown">
+                                    <NavDropdown.Item href="#action3">People - Community</NavDropdown.Item>
+                                    <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action4">
-                                        Another action
+                                        Places - Venues
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action5">
-                                        Something else here
+                                    <NavDropdown.Item href="#action4">
+                                        Programs - Events
                                     </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="#action4">
+                                        Products - Store
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="#action4">
+                                        Blogs
+                                    </NavDropdown.Item>
+
                                 </NavDropdown>
                                 <NavDropdown className='fs-5 fw-bold' title={<><MdStars style={{ color: colors.primary }} /> Hobbies</>} id="navbarScrollingDropdown">
-                                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#action3">People - Community</NavDropdown.Item>
+                                    <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action4">
-                                        Another action
+                                        Places - Venues
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action5">
-                                        Something else here
+                                    <NavDropdown.Item href="#action4">
+                                        Programs - Events
                                     </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="#action4">
+                                        Products - Store
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="#action4">
+                                        Blogs
+                                    </NavDropdown.Item>
+
                                 </NavDropdown>
                             </Nav>
                             <Nav.Link className='fs-5' href="#" >
