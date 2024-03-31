@@ -6,7 +6,7 @@ const Cards = () => {
     const [json, setJson] = useState([]);
 
     useEffect(() => {
-        axios.get('/public/json.json')
+        axios.get('/json.json')
             .then(res => {
                 setJson(res.data);
             })
