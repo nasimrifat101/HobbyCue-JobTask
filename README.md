@@ -60,7 +60,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-- Visit the deployed website: [HobbyCue](<insert-deployed-url>)
+- Visit the deployed website: [HobbyCue](https://happycue.surge.sh/)
 - Explore different hobbies and interests.
 - Connect with other users and participate in community events.
 - Enjoy a seamless browsing experience with Bootstrap-powered UI components.
