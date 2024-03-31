@@ -6,7 +6,7 @@ import Login from "./Auth/Login";
 
 
 const Banner = () => {
-    const [activeTab, setActiveTab] = useState('login');
+    const [activeTab, setActiveTab] = useState('signup');
 
     const handleTabChange = (tab) => {
         setActiveTab(tab);
