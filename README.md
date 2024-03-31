@@ -81,6 +81,6 @@ Special thanks to the developers and contributors of the following libraries and
 
 ---
 
-**Note:** HobbyCue was developed as part of a job task and serves as a showcase of my skills and ability to quickly adopt. This was my first time using Bootstrap & React-boostrap. learned wile doing project and completed project in 6 hours. Feedback and constructive criticism are appreciated!
+**Note:** HobbyCue was developed as part of a job task and serves as a showcase of my skills and ability to quickly adopt. This was my first time using Bootstrap & React-bootstrap. learned wile doing project and completed project in 6 hours. Feedback and constructive criticism are appreciated!
 
 ---
