@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Hobby from "./Hobby";
 import Navbarr from "./Navbar";
 import Testimonial from "./Testimonial";
+import Top from "./Top";
 
 export {
     Navbarr,
@@ -14,5 +15,5 @@ export {
     Testimonial,
     Hobby,
     Footer,
-  
+    Top,
 }
